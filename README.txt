@@ -25,6 +25,9 @@ Created on Sun Feb 14 10:37:17 2021
 
 merging means to bring the changes from one branch into another
 
+- a fast forward merge happens when the target branch was branched from the current one,
+and there are no new changes to the current branch since then.
+
 ## commit messages
 
 default editor is vim (this can be changed)
