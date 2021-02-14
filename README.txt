@@ -20,6 +20,9 @@ Created on Sun Feb 14 10:37:17 2021
 - git show: show a single commit
 - git diff: show difference between commits, the working directory, and the staging area
 - git diff <commit>: show diff b/w working dir and commit
+- git diff --cached: show diff between staging area and HEAD
+- git diff <commit>..<commit>: diff b/w two commits
+- git diff <branch>..<branch>: diff b/w two branches
 - git checkout: check out branch (update HEAD and apply chnages to working directory)
 - git branch: shows existing branches
 - git branch -v: shows latest commit of all existing branches
