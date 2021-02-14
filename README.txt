@@ -17,7 +17,7 @@ Created on Sun Feb 14 10:37:17 2021
 - git config: set or get configuration
 - git log: show history of project commits
 - git branch -c: create a branch
-- git checkout: check out (switch to) a branch
+- git checkout: check out (switch to) a branch (or HEAD)
 - git checkout -b: create branch, then check it out
 
 ## what's a branch?
