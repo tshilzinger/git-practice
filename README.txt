@@ -21,6 +21,10 @@ Created on Sun Feb 14 10:37:17 2021
 - git branch -v: shows latest commit of all existing branches
 - git merge: merge changes from different branches
 
+## merging
+
+merging means to bring the changes from one branch into another
+
 ## commit messages
 
 default editor is vim (this can be changed)
