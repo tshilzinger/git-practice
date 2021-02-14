@@ -57,6 +57,8 @@ Created on Sun Feb 14 10:37:17 2021
 - git push -u <remote><branch>: push <branch> to <remote> and set default upstream for <branch>
 
 - git fetch: fetch changes from remote repository
+    
+- git pull: combines fetch and merge into one step... pulls the latest from github and merges with working directory
 
 ## what's a branch?
 
