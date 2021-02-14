@@ -56,6 +56,8 @@ Created on Sun Feb 14 10:37:17 2021
 - git remote -v: list remote repositories
 - git push -u <remote><branch>: push <branch> to <remote> and set default upstream for <branch>
 
+- git fetch: fetch changes from remote repository
+
 ## what's a branch?
 
 a branch is a ref(erence) to a commit. 
