@@ -26,10 +26,14 @@ Created on Sun Feb 14 10:37:17 2021
 - git log --all: shows all commits
 - git log --graph: shows graph view of all commits
 - git log --oneline --all --graph: combines above
+- git log <branch1>..<branch2>: log of commits in branch2 that don't exist in branch1
+- git log <branch1>...<branch2>: log of commits in either branch but not both
 
 - git branch: shows existing branches
 - git branch -c: create a branch
 - git branch -v: shows latest commit of all existing branches
+- git branch --no-merged <branch1>: list of branches that have unmerged conflicts
+- git branch --merged <branch1>: list of branches that have no unmerged conflicts
 
 - git show: show a single commit
 
@@ -47,6 +51,8 @@ Created on Sun Feb 14 10:37:17 2021
 - git stash pop: apply stashed changes to working directory
 
 - git merge: merge changes from different branches
+- git merge --abort: abort an in-progress merge
+- git merge --no-commit --no-ff: attempt to merge but don't create an auto or ff merge
 
 ## what's a branch?
 
@@ -64,7 +70,7 @@ Git commands like "status", "log", and "branch" use HEAD.
 
 merging means to bring the changes from one branch into another
 
-- a fast forward merge happens when the target branch was branched from the current one,
+- a fast forward (ff) merge happens when the target branch was branched from the current one,
 and there are no new changes to the current branch since then.
 - an automatic merge happens when the two histories have divereged, 
 but git is able to reconcile them into one set of changes.
