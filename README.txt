@@ -17,9 +17,23 @@ Created on Sun Feb 14 10:37:17 2021
 - git config: set or get configuration
 - git log: show a history (aka log) of project commits
 - git checkout: check out branch (update HEAD and apply chnages to working directory)
+- git checkout -b: create branch, then check it out
 - git branch: shows existing branches
+- git branch -c: create a branch
 - git branch -v: shows latest commit of all existing branches
 - git merge: merge changes from different branches
+
+## what's a branch?
+
+a branch is a ref(erence) to a commit. 
+when HEAD points to a branch, we say we're "on" that branch.
+when we make a commit while we are on a branch, the branch is updated to ref(er) to the new commit
+
+## what's a HEAD?
+
+HEAD is a ref(erence) to the "current" branch (or sometimes a commit.. more on that later).
+Git commands like "status", "log", and "branch" use HEAD. 
+"git checkout" updates HEAD to ref(er) to a different branch.
 
 ## merging
 
@@ -29,7 +43,7 @@ merging means to bring the changes from one branch into another
 and there are no new changes to the current branch since then.
 - an automatic merge happens when the two histories have divereged, 
 but git is able to reconcile them into one set of changes.
-this creates a new commit on the current branch (use "wq to escape vim")
+this creates a new commit on the current branch
 
 ## commit messages
 
