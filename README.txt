@@ -16,6 +16,10 @@ Created on Sun Feb 14 10:37:17 2021
 - git commit: commit changes from staging area to current branch
 - git config: set or get configuration
 - git log: show history of project commits
+- git log --oneline: show history of project commits in single line per commit
+- git show: show a single commit
+- git diff: show difference between commits, the working directory, and the staging area
+- git diff <commit>: show diff b/w working dir and commit
 - git checkout: check out branch (update HEAD and apply chnages to working directory)
 - git branch: shows existing branches
 - git branch -v: shows latest commit of all existing branches
