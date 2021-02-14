@@ -16,6 +16,9 @@ Created on Sun Feb 14 10:37:17 2021
 - git commit: commit changes from staging area to current branch
 - git config: set or get configuration
 - git log: show history of project commits
+- git stash: stash changes from working directory
+- git stash list: list stashes
+- git stash pop: apply stashed changes to working directory
 
 ## commit messages
 
