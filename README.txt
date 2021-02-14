@@ -27,6 +27,9 @@ merging means to bring the changes from one branch into another
 
 - a fast forward merge happens when the target branch was branched from the current one,
 and there are no new changes to the current branch since then.
+- an automatic merge happens when the two histories have divereged, 
+but git is able to reconcile them into one set of changes.
+this creates a new commit on the current branch (use "wq to escape vim")
 
 ## commit messages
 
