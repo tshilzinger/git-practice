@@ -82,6 +82,14 @@ and there are no new changes to the current branch since then.
 but git is able to reconcile them into one set of changes.
 this creates a new commit on the current branch
 
+## what's a remote?
+
+a remote repo is one hosted somewhere other than our local machine.
+we can add remotes with 'git remote add'
+and set up *tracking branches* to track differences between local and remote repos.
+we push to remotes with 'git push', and fetch from them with 'git fetch'.
+we can also fetch and merge in one step with 'git pull'.
+
 ## commit messages
 
 default editor is vim (this can be changed)
