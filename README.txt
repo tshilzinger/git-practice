@@ -19,6 +19,7 @@ Created on Sun Feb 14 10:37:17 2021
 - git checkout: check out branch (update HEAD and apply chnages to working directory)
 - git branch: shows existing branches
 - git branch -v: shows latest commit of all existing branches
+- git merge: merge changes from different branches
 
 ## commit messages
 
