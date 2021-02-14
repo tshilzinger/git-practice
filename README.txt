@@ -3,7 +3,6 @@
 """
 Created on Sun Feb 14 10:37:17 2021
 
-@author: thilzinger001
 """
 
 
@@ -53,6 +52,9 @@ Created on Sun Feb 14 10:37:17 2021
 - git merge: merge changes from different branches
 - git merge --abort: abort an in-progress merge
 - git merge --no-commit --no-ff: attempt to merge but don't create an auto or ff merge
+    
+- git remote -v: list remote repositories
+- git push -u <remote><branch>: push <branch> to <remote> and set default upstream for <branch>
 
 ## what's a branch?
 
